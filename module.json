@@ -1,0 +1,46 @@
+{
+	"id": "tcm-automation",
+	"title": "The Crooked Moon Automation",
+	"description": "A set of automation enhancements for the Crooked Moon module",
+	"version": "0.0.1",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13"
+	},
+	"authors": [
+		{
+			"name": "Klaas-Jan Boon"
+		}
+	],
+	"esmodules": [
+		"scripts/tcm-automation.js"
+	],
+	"styles": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "4.0.0"
+				}
+			}
+		],
+		"requires": [{
+			"id": "the-crooked-moon-2014",
+			"type": "module",
+			"compatibility": {
+				"verified": "2.2.1"
+			}
+		}]
+	},
+	"manifest": "https://github.com/K-JBoon/tcm-clock/releases/latest/download/module.json",
+	"download": "https://github.com/K-JBoon/tcm-clock/releases/download/v0.0.1/tcm-automation.zip"
+}

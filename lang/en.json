@@ -1,0 +1,5 @@
+{
+	"TCMAUTOMATION.settings.enableIntrusionDie": "Enable Intrusion Die Automation",
+	"TCMAUTOMATION.settings.enableIntrusionDieHint": "Automatically scales the Intrusion Die for wizard subclass features.",
+	"TCMAUTOMATION.ui.notifications.warn.intrusionTableNotFound": "Intrusion rollable table not found. Please import or create a rollable table named \"Intrusion\"."
+}
