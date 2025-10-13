@@ -42,7 +42,6 @@ export class IntrusionDieFeature {
 	}
 
 	static isIntrusionFeature(subject) {
-		console.warn({ subject });
 		return subject?.type === 'utility' && subject.name.toLowerCase() === 'intrusion';
 	}
 
@@ -123,9 +122,6 @@ export class IntrusionDieFeature {
 			// Get the current die size
 			const currentDie = this.getCurrentDie(actor);
 
-			console.warn({
-				actor, config, currentDie
-			});
 			// Find and replace the Intrusion die from the activity
 			if (config.rolls?.length && config.rolls[0].parts?.length) {
 				config.rolls[0].parts[0] = `1${currentDie}`;
